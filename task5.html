@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Задача 5</h1>
+    <p>Дано кількість секунд, що пройшла від початку доби. Визначити скільки це годин і хвилин. </p>
+    <script>
+        let second = parseFloat(prompt(`Введіть кількість секунд`))
+        let minutes = second / 60
+        let hour = second / 3600
+        document.write(`кількість секунд ${second}с 
+       <p> значення у хвилинах ${minutes}хв</p> 
+       <p> значення у годинах ${hour}год</p>`)
+    </script>
+</body>
+
+</html>
